@@ -156,13 +156,13 @@ var bindTaskEvents = function (taskListItem, checkBoxEventHandler) {
 //cycle over incompleteTaskHolder ul list items
 //for each list item
 for (var i = 0; i < incompleteTaskHolder.children.length; i++) {
-  //bind events to list items children(tasksCompleted)
+  //bind events to list items children(tasks-completed)
   bindTaskEvents(incompleteTaskHolder.children[i], taskCompleted);
 }
 
 //cycle over completedTasksHolder ul list items
 for (var i = 0; i < completedTasksHolder.children.length; i++) {
-  //bind events to list items children(tasksIncompleted)
+  //bind events to list items children(tasks-incomplete)
   bindTaskEvents(completedTasksHolder.children[i], taskIncomplete);
 }
 
