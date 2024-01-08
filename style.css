@@ -4,6 +4,7 @@ body {
   color: #333;
   font-family: Lato, sans-serif;
 }
+
 .hero {
   width: 500px;
   margin: 0 auto;
@@ -17,7 +18,7 @@ body {
   font-family: fantasy, cursive;
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .hero {
     text-align: center;
   }
@@ -40,10 +41,12 @@ ul {
   margin: 0;
   padding: 0px;
 }
-li, h3 {
+li,
+h3 {
   list-style: none;
 }
-input, button{
+input,
+button {
   outline: none;
 }
 button {
